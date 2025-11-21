@@ -2,6 +2,7 @@ import Hero from './components/Hero'
 import Markets from './components/Markets'
 import Workbench from './components/Workbench'
 import PaperTrade from './components/PaperTrade'
+import Analytics from './components/Analytics'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Markets />
       <Workbench />
+      <Analytics />
       <PaperTrade />
       <footer className="bg-black/90 border-t border-white/10 py-8">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 flex items-center justify-between">
